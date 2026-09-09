@@ -20,18 +20,20 @@ I care a lot about *why* a system is built a certain way, not just that it works
 
 A first-person, Unity 6 survivors-like inspired by *Megabonk* — built from scratch as a deep dive into real-time systems architecture rather than just "making a game."
 
-**Why I'm building it:** I wanted a project that would force me to design real architecture under pressure — combat that has to feel instant, progression systems that have to stay balanced as they grow, and dozens of interacting subsystems (enemies, weapons, items, talismans) that all need to evolve independently without turning into spaghetti. Survivors-likes are deceptively perfect for this: simple on the surface, brutal on the backend if you don't structure it right.
+**Why I'm building it:** I wanted a project that would force me to design real architecture under pressure, combat that has to feel instant, progression systems that have to stay balanced as they grow, and dozens of interacting subsystems (enemies, weapons, items, talismans) that all need to evolve independently without turning into spaghetti. Survivors-likes are deceptively perfect for this: simple on the surface, brutal on the backend if you don't structure it right.
 
 **Scope & architecture highlights:**
-- Strict separation between data definitions (ScriptableObjects) and runtime instances — new content gets configured, not coded
+- Strict separation between data definitions (ScriptableObjects) and runtime instances, new content gets configured, not coded
 - A single centralized damage/combat resolver so every interaction in the game runs through one validated, testable path
 - An event-driven messaging layer (`GameEvents`) that lets items, talismans, and UI react to gameplay without ever referencing the systems that caused it
 - A shared-pool, tree-based progression system per weapon, replacing simple flat upgrades
-- Currently extending the project with a planned backend leaderboard — PostgreSQL-backed persistence for user profiles and scores, pushing the project into full-stack territory
+- Currently extending the project with a planned backend leaderboard, PostgreSQL-backed persistence for user profiles and scores, pushing the project into full-stack territory
 
 <p align="center">
-  <img src="docs/media/bonkerzzz-combat.gif" width="45%" alt="Combat and hit feedback demo" />
-  <img src="docs/media/tutorial-bossfight.gif" width="45%" alt="Tutorial Boss fight demo" />
+  <p align="center">Combat Example</p>
+  <img src="docs/media/bonkerzzz-combat.gif" width="100%" alt="Combat and hit feedback demo" />
+  <p align="center">Tutorial Boss</p> 
+  <img src="docs/media/tutorial-bossfight.gif" width="100%" alt="Tutorial Boss fight demo" />
 </p>
 
 ---
