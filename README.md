@@ -31,7 +31,7 @@ A first-person, Unity 6 survivors-like inspired by *Megabonk* — built from scr
 
 <p align="center">
   <img src="docs/media/bonkerzzz-combat.gif" width="45%" alt="Combat and hit feedback demo" />
-  <img src="docs/media/bonkerzzz-bossfight.gif" width="45%" alt="Boss fight demo" />
+  <img src="docs/media/bonkerzzz-bossfight.gif" width="45%" alt="Tutorial Boss fight demo" />
 </p>
 
 ---
