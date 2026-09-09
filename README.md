@@ -73,7 +73,7 @@ A first-person, Unity 6 survivors-like inspired by *Megabonk* — built from scr
 
 - I default to building the architecture first, then the feature — data vs. runtime, event buses, single-source-of-truth resolvers, you name it
 - I use AI as a mentor, not a crutch — I get a task breakdown, then write and review the code myself so I actually understand every line
-- Off the keyboard, I train calisthenics and I'm currently chasing my first clean muscle-up
+- Off the keyboard, I train calisthenics and recently achieved my first clean muscle-up
 - My favorite kind of project is one where a "fun mechanic" idea has to survive contact with real system design
 
 ---
